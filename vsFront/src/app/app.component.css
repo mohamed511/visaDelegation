@@ -1,0 +1,42 @@
+.root-content{
+  background-color: rgb(241, 240, 240);
+}
+
+ng-sidebar-container{
+  min-height: 100vh;
+  border: red solid 2px;
+}
+
+::ng-deep .ng-sidebar {
+	background-color: #f4f4f4;
+	width: 300px;
+	padding: 2em 3em;
+  box-shadow: 0 0 2.5em rgba(85, 85, 85, 0.5);
+}
+.menu {
+	margin-top:2em;
+	display:block;
+}
+
+.menu li {
+	margin-bottom: 15px;
+}
+
+.menu li a{
+	display: block;
+	width: 100%
+}
+
+.fa-align-justify{
+  color: white;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.fa-caret-down{
+  color: white;
+}
